@@ -1,0 +1,12 @@
+div h2 {
+    width: auto;
+    height: auto;
+    background-color: skyblue;
+    color: black;
+    margin: 0px;
+    list-style: none;
+}
+
+.parent{
+ text-align:center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!--設定系-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="さかなの目覚まし">
+    <meta name="description" content="さかなさん起きてください">
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--その他-->
+    <title>さかな起こすマン</title>
+    <link rel="icon" href="image/icon.png">
+  </head>
+  <body onload="LoadProc();" class="parent" style="background-color: skyblue;">
+    <img src="image/icon.png" alt="sakana" width="0px">
+    <div class="item">
+      <div>
+      <h2>一度再生するとページを更新するかタブを閉じるまで止まりません</h2>
+    </div>
+    <p id="RealtimeClockArea2" title="現在時刻" style="font-size: 20px;">時刻を取得中...</p>
+    <p>音割れポッター</p>
+    <p>※動画を再生するとよりすごいです</p>
+    <video src="audio/1.mp4" width="450px" height="315px" controls></video>
+    <p>
+      <button onclick="play();" id="play" width="100px" title="再生開始" style="font-size: 25px;">再生</button>
+      <button onclick="pause();" id="pause" width="100px" title="一時停止" style="font-size: 25px;">一時停止</button>
+    </p>
+    <script src="Javascript/play.js"></script>
+    <script src="Javascript/date.js"></script>
+    <title>さかな起こすマン</title>
+    <div title="ダウンロード さかな起こすマン">
+      <p style="size: 25px;">
+        <a href="DL/sakanaokosuman.zip" download="sakanaokosuman.zip" target="_blank"></a></p>
+          <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V9l-7-7z"></path>
+              <path d="M13 3v6h6"></path>
+          </svg>
+          ダウンロード
+          </button>
+      </a>
+  </div>
+    </div>
+    
+  </body>
+</html>

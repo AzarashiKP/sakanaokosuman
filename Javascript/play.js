@@ -1,5 +1,5 @@
 var audio = new Audio(); 
-    audio.src = 'audio/1.mp4'; loop;
+    audio.src = 'audio/2.mp4'; loop;
 
 function play() {
     window.alert('音割れポッターを再生します');
